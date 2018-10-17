@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/welcome', function(){
+   return 'welcome to 3d rhymes';
+});
